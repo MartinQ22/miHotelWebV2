@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiHotelWeb</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <nav> <!-- Navegacion -->
+        
+                <a href="index.html">Inicio</a>
+                <a href="hoteles.html">Hoteles</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="ayuda.html">Ayuda</a>
+            
+                <!-- Logo -->
+                <div class="logo">
+                    <H1>Mi Hotel Web</H1>
+                </div>
+            </nav>
+        </div>        
+    </header>
+
+<Main>
+    <section> <!-- Main Buscador de hotel  -->
+        <h1>Veamos donde vas a hospedar</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus dolore minus aspernatur accusamus assumenda architecto? Suscipit labore quo accusantium. </p>
+
+        <!-- Search bar -->
+        <input class="search" type="text" placeholder="Buscar Hoteles">
+
+        <!-- Fecha de inicio (para la persona que corrija esta bien asi el selector de calendario?)-->
+        <label for="checkin">CHECK-IN</label> 
+        <input class="fecha" type="date" id="checkin" name="check-in" value="2024-12-01" min="2024-12-01" max="2025-03-01" />
+
+        <!-- Fecha de fin -->
+        <label for="checkout">CHECK-OUT</label> 
+        <input class="fecha" type="date" id="checkout" name="check-out" value="2024-12-02" min="2024-12-02" max="2025-03-01" />
+       
+        <!-- Boton -->
+        <a class= "button-grande" href="hoteles.html">Buscar mi hotel</a>
+  
+    </section>
+
+    <aside> 
+        <div> <!-- imagen de lugar/promocion -->
+            <img class="img-index" src="../img/buenos_aires_foto.jpg" alt="imagen_de_hotel">
+        </div>
+
+        <p>Buenos Aires, Argentina</p> <!--Pie de imagen -->
+
+    </aside>
+
+</Main>
+    <footer><!--Footer -->
+    <p>Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../../../Mi_Hote_Web"
+		},
+		{
+			"path": "../../../../First page"
+		},
+		{
+			"path": "../../../../Martin Quiroga Freelancer"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../semana-3"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "semana-3"
+	}
+}
