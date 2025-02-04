@@ -17,17 +17,14 @@
     justify-content: center;
 } 
 
-.margin-top-mas{
-    margin-top: 4rem;
-}
+.margin-top-mas{margin-top: 4rem;}
 
 .footer-bug-pb{
-    padding-bottom: 26rem;
+    padding-bottom: 30rem;
 }
 
 /* Body */
 body{
-    
     color: #030306;
     background-color: #fffafa;
     font-family: 'Anuphan', sans-serif;
@@ -37,9 +34,6 @@ body{
 }
 
 /* Main */
-
-
-
 .main-ayuda{
     height: 80%;
     display: grid;
@@ -56,9 +50,7 @@ body{
     object-fit: cover;
 }
 
-
 /* Footer */
-
 footer{
     text-align: center;
     background-color: #000309;
@@ -216,22 +208,6 @@ footer{
     color: #030306;
 }
 
-.button--hoteles{
-    display: inline-block;  
-    width: 384px;
-    height: 45px;
-    padding: 0px 10px 0px 10px;
-    background: #f5ae3f;
-    color: #232323;
-    border-color: #232323;
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 3px 3px 3px 3px;
-    font-weight: 400;
-    font-size: 14px;
-    text-align: center;
-}
-
 .button-contacto{
     display: inline-block;  
     width: min(8.44rem, 100%);
@@ -339,7 +315,7 @@ footer{
     border-style: solid;
 }
 
-/* Img Page Hoteles!!!!!*/
+/* Img avatar Hoteles*/
 
 .avatar {
     vertical-align: middle;
@@ -354,8 +330,6 @@ footer{
     background-color:#161616;
     color: #fffafa;
 }
-
-
 
 /* MEDIA QUERY */
 
@@ -530,8 +504,6 @@ footer{
             font-weight: bold;
         }
 
-        
-
         .dates {
             color: #666;
             font-size: 14px;
@@ -551,72 +523,6 @@ footer{
             display: flex;
             gap: 5px;
         }
-
-
-        .dot.active {
-            opacity: 1;
-        }
-
-
-
-/*
-.mainHoteles{
-    padding: 1rem 2rem;
-    display: grid;
-    grid-template-columns: 30% 40% 30% ;
-    grid-template-rows: repeat(3, 1fr) ;
-    gap: 2rem;
-}
-
-.imagen-principal-hoteles{
-    
-}
-
-.hotelesArticle{
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-}
-
-.textHoteles{
-    display: block;
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
-    
-}
-
-.carrouselHoteles{
-    grid-template-columns: span 2;
-    grid-column: 1 / 2;
-    grid-template-rows: 3/2;
-    gap: 1rem;
-}
-
-.carrouselHoteles img{
-    gap: 1rem;  
-}
-
-.searchBarHoteles{
-    display: none;
-    grid-column: 3 / 4;
-    grid-template-rows: 1 / 2;
-}
-
-.OtrasOpcionesHoteles{
-    grid-column: 3 / 4;
-    grid-template-rows: 1 / 2;
-}
-
-*/
-
-
-
-
-
-
-
-
-
-
 
 /* Nosotros Page */
 
