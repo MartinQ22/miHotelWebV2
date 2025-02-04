@@ -1,0 +1,40 @@
+// import mixin
+@import "../utilidades/mixin";
+// import variables
+@import "../utilidades/variables";
+
+/* Search bar */
+
+.search{
+  width: 22.5rem;
+  height: 3rem;
+  padding: 1.25rem;
+  margin-top: 0.7%;
+  margin-bottom: 0.7%;
+  background: #fffafac7;
+  color: #C0C0C0;
+  border: 1px solid $color-gris;
+  border-radius: 0.5rem;
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: left;
+}
+
+/* Input calendario */
+
+.fecha{
+    font-weight: 500;
+    width: 22.5rem;
+    height: 3rem;
+    padding: 1.3rem;
+    background: #EBEBEB;
+    color: $color-gris;
+    border-color: $color-gris;
+    border-width: 0.0625rem;
+    border-style: solid;
+    font-size: 0.875rem;
+    text-align: left;
+    font-family: 'Anuphan', sans-serif;
+    margin-top: 0.25rem;
+    margin-bottom: 1rem;
+}

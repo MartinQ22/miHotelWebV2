@@ -8,7 +8,7 @@
     <title>Mi Hotel Web</title>
 
     <!--Css-->
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/style.css">
 
     <!--Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -46,70 +46,71 @@
       </nav>  
 </header>
 
-<Main class="margin-top-mas container grid-mobile">
-    <h2>Contacto</h2>
-          <p>envianos un mail con cualquier duda o comentario que tengas</p>
+<Main>
+    
         <!-- div grande-->
-         <div class="form-section">
+         <section class="banner-section">
+          <div class="capa">
+            <h1>Contactate con nosotros</h1>
 
-            <!-- form div bt-->
-            <div class=" col-md-8 ">
-                <form>
-                    <div class="form-row ">
-                      <div class="form-group">
-                        <label for="inputEmail4">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                      </div>
-                      <div class="form-group">
-                        <label for="inputPassword4">Contraseña</label>
-                        <input type="Contraseña" class="form-control" id="inputPassword4" placeholder="Password">
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <label for="inputAddress">Direccion</label>
-                      <input type="text" class="form-control" id="inputAddress" placeholder="Nicolas Raccoon City 1234, Corrientes">
-                    </div>
-                
-                    <div class="form-row">
-                      <div class="form-group">
-                        <label for="inputCity">Ciudad</label>
-                        <input type="text" class="form-control" id="inputCity" placeholder="Corrientes">
-                      </div>
-                      <div class="form-group">
-                        <label for="inputState">Pais</label>
-                        <select id="inputState" class="form-control">
-                            <option selected>Argentina</option>
-                            <option>Venezuela</option>
-                            <option>Chile</option>
-                            <option>Otro</option>
-                        </select>
-                      </div>
-                    </div>
+          <p>envianos un mail con cualquier duda o comentario que tengas</p>
+          </div>
+         </section> 
 
-                    <div class="form-group mb-3 mt-2">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">
-                            Estoy de acuerdo con enviar mis datos
-                        </label>
-                      </div>
-                    </div>
-                    
-                    <button type="submit" class="button-contacto">Enviar datos</button>
-                  </form>
-            </div>
-            <!-- form div final -->
+         <section>
+          <!-- form div bt-->
+          <div class="d-flex justify-content-center">
 
-            <div class="comunicacion-card">
-                <h2>Tambien te comunicas con nosotros por:</h2>
-                      <ul>
-                          <li>Instagram: @mihotel_web</li>
-                          <li>Telefono:+533 351515221</li>
-                          <li>linked in: HotelesWeb S.A</li>
-                      </ul>
-            </div>
             
-        </div> 
+
+            <form>
+              <h1 class="p-4">Ingresa aqui tus datos</h1>
+                <div class="form-row ">
+                  <div class="form-group pb-2">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                  </div>
+                  <div class="form-group pb-2">
+                    <label for="inputPassword4">Contraseña</label>
+                    <input type="Contraseña" class="form-control" id="inputPassword4" placeholder="Password">
+                  </div>
+                </div>
+                <div class="form-group pb-2">
+                  <label for="inputAddress">Direccion</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="Nicolas Raccoon City 1234, Corrientes">
+                </div>
+            
+                <div class="form-row">
+                  <div class="form-group pb-2">
+                    <label for="inputCity">Ciudad</label>
+                    <input type="text" class="form-control" id="inputCity" placeholder="Corrientes">
+                  </div>
+                  <div class="form-group">
+                    <label for="inputState">Pais</label>
+                    <select id="inputState" class="form-control">
+                        <option selected>Argentina</option>
+                        <option>Venezuela</option>
+                        <option>Chile</option>
+                        <option>Otro</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group mb-3 mt-2 pt-2">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        Estoy de acuerdo con enviar mis datos
+                    </label>
+                  </div>
+                </div>
+                
+                <button type="submit" class="button-contacto">Enviar datos</button>
+              </form>
+        </div>
+        <!-- form div final -->
+
+         </section>
 </Main>
 
     <!--Footer -->

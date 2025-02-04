@@ -1,0 +1,56 @@
+// import mixin
+@import "../utilidades/mixin";
+// import variables
+@import "../utilidades/variables";
+
+/* Nosotros Page */
+
+.about-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: $color-blanco;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titleNosotros {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    line-height: 1;
+}
+
+.description {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+
+.negritaExageracion {
+    font-style: italic;
+    font-size: 1.4rem;
+    font-weight: bold;}
+
+.footerBugNosotros{
+    padding-bottom: 5rem;
+}

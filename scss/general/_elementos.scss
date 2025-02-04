@@ -1,0 +1,111 @@
+// import mixin
+@import "../utilidades/mixin";
+// import variables
+@import "../utilidades/variables";
+
+/* Botones */
+
+.button-grande {
+    text-decoration: none;
+    display:flex ;
+    align-items: center;
+    justify-content: center; 
+    width: 22.5rem;
+    height: 2.8rem;
+    padding: 1.6rem 1rem;
+    background: linear-gradient(to right, #e63fbce8, #0df1f1);
+    color: $color-principal;
+    border-color: $color-principal;
+    border-width: 0.0625rem;
+    border-style: solid;
+    border-radius: 0.1875rem;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.button-grande:hover{
+    border-width: 0.2rem;
+    font-size: 1.1rem;
+    transition: 0.15s ease-in-out;
+}
+.button-grande:active{
+    background-color: $color-principal;
+    color:linear-gradient(to right, #e63fbce8, #0df1f1);
+    border-width: 0.2rem;
+    font-size: 1.1rem;
+    transition: 0.15s ease-in-out;
+}
+
+.button a{
+    color: $color-principal;
+}
+
+.button-contacto{
+    display: inline-block;  
+    width: min(27.44rem, 100%);
+    height: 3rem;
+    padding: 0px 5px 0px 5px;
+    background: $color-blanco;
+    color: $color-gris;
+    border-color: $color-gris;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+
+.button-contacto:hover{
+    font-weight: 600;
+    @include contactoBotonEstados;
+}
+
+.button-contacto:active{
+    font-weight: 700;
+    @include contactoBotonEstados;
+}
+
+/* Cards */
+
+.card-text {
+    margin-top: 0.6rem;
+    color: $color-gris-claro;
+  }
+  
+  .card {
+    padding: 1.4rem;
+    transition: all 0.5s;
+  }
+  
+  .card:hover {
+    background-color: $color-gris-claro;
+    color: $color-secundario;
+  }
+  
+  .card:hover .icon,
+  .card:hover .card-text {
+    color: $color-secundario;}
+
+.cards{width: 29rem;}
+
+.card-group{
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img-user{
+    width: 70px;
+  max-height: 70px;
+  border-radius: 50%;
+  margin-right: 1rem;
+  overflow: hidden;
+}
+
+/* Imangenes */
+.img-index {
+    width: 490px;
+    height: 424px;
+    border: 1px solid $color-principal;
+}
+
