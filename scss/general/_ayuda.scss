@@ -1,0 +1,43 @@
+// import mixin
+@import "../utilidades/mixin";
+// import variables
+@import "../utilidades/variables";
+
+/* Estilos Ayuda */
+
+/* Main */
+.main-ayuda{
+    height: 80%;
+    display: grid;
+    grid-template-columns:repeat(3, 30%);
+    grid-template-rows: repeat(3, 30%);
+    row-gap: 1.4rem;
+    padding: 1.4rem;
+    align-content: center;
+} 
+
+.main-ayuda div{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Iconos */
+.icono-ayuda{
+    width: 50px;
+    height: 50px;
+}
+
+/* Divs */
+.div-preguntas{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.div-preguntas img{
+    height: 3rem;
+    width: 3rem;
+}
