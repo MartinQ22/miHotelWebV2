@@ -1,0 +1,13 @@
+
+// mixin sin parametros 
+@mixin flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin contactoBotonEstados{
+    border-width: 0.16rem;
+    transition: 0.15s ease-in-out;
+    background-color: $color-acento;
+}

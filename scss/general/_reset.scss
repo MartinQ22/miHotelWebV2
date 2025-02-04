@@ -1,0 +1,65 @@
+// import mixin
+@import "../utilidades/mixin";
+// import variables
+@import "../utilidades/variables";
+
+
+/* Reset */
+
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generales */
+
+.text-shadow{
+    text-shadow: 0.1rem 0.1rem 0 #161616ab;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+} 
+
+.margin-top-mas{margin-top: 4rem;}
+
+.footer-bug-pb{
+    padding-bottom: 30rem;
+}
+
+/* Body */
+body{
+    color: $color-principal;
+    background-color: $color-secundario;
+    font-family: 'Anuphan', sans-serif;
+    font-size: medium;
+    position: relative;
+    padding-bottom: 10rem; 
+}
+
+/* Footer */
+footer{
+    text-align: center;
+    background-color: #000309;
+    color: #fffafa;
+    padding: 1rem;
+    margin-top: 8rem;
+}
+
+.footer-ayuda{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.column{
+    margin: 5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    }

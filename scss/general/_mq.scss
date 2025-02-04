@@ -1,0 +1,98 @@
+// import mixin
+@import "../utilidades/mixin";
+// import variables
+@import "../utilidades/variables";
+
+/* Display mobile */
+
+@media(max-width:663px){
+
+    /* Nav */
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: $color-principal;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .menu li {margin-top: 40px;}
+    .menu li a {padding: 10px;}
+    .open-menu , .close-menu {display: block;}
+    #check:checked ~ .menu {right: 0;}
+
+    .div-preguntas{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form-section{
+        row-gap: 2rem;
+    }
+    
+    /* generales */
+    .grid-mobile{
+        grid-template-columns: 1;
+        grid-template-rows: repeat(3, 25%);
+    }
+
+    /* contacto page */
+    .banner-section{
+        height: 450px;
+        background-position: right;
+    }
+    
+    
+    /* Nosotros page */
+    .about-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .image-container {
+        grid-row: 1/2;
+        grid-template-columns: span 2;
+    }
+    .content-container{
+        grid-row: 2/3;
+        grid-template-columns: span 2;
+    }
+
+    .titleNosotros{
+        text-align: center;
+    }
+
+    .titleNosotros br{
+        display: none;
+    }
+
+    .head-image {
+        max-width: 300px;
+    }
+
+}
+
+/* Display tablet */
+@media(max-width:1080px){
+    .div-preguntas{
+        align-items: center;
+        justify-content: center;
+    } 
+
+    /* Contacto */
+
+    .banner-section{
+        height: 450px;
+        background-position: right;
+    }
+
+    .capa {
+        padding: 4rem;  
+    }
+}
